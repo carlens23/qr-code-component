@@ -15,21 +15,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .card-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     background-color: var(--White);
     border-radius: 1em;
-    margin-top: 67px;
     }
 
 .itens {
-    width: 315px;
-    height: 85vh;
+    width: 310px;
+    height: 80vh;
     text-align: center;
     overflow: hidden;
     display: flex;
@@ -44,14 +42,13 @@ body {
     height: 55%;
     border-radius: 20px;
     position: relative;
-    top: -32px;
-    padding-bottom: -13px;
-    margin-bottom: -95px;
+    top: -72px;
+    margin-bottom: -63px;
 }
 
 .main {
-    padding-top: -1em;
-    margin-top: -2em;
+    padding-top: -5em;
+    margin-top: -6rem;
     font-family: "Outfit", sans-serif;
     font-size: 1.2em;
     width: 90%;
@@ -61,7 +58,7 @@ body {
     color: var(--Dark-blue);
     padding-bottom: 4px;
     padding-top: 35%;
-    margin-top: -3px;
+    margin-top: 1px;
 }
 
 .main p {
@@ -71,37 +68,19 @@ body {
     font-size: 15px;
 }
 
-.btn {
-    width: 70%;
-    height: 40px;
-    background-color: #2C7DFA;
-    color: white;
-    border-radius: 10px;
-    border: none;
-    margin-top: 20px;
-}
-
-.btn:hover {
-    background-color: var(--Light-gray);
-    color: black;
-}
-
-.paraf {
-    font-family: "Outfit", sans-serif;
-    font-size: 13px;
+.attribuition {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: relative;
+    bottom: 45px;
 }
 
-.paraf a {
-    text-align: center;
-    color: rgb(96, 161, 6);
-}
-
-.paraf a:hover {
+.attribuition  a:hover {
+    color: rgb(55, 182, 55);
     text-decoration: underline;
 }
+
+
+
 
 
 
